@@ -24,6 +24,4 @@ app.get('/', function(req, res) {
 app.get('/:input', processString);
 
 var PORT = 8080;
-app.listen(PORT, function() {
-    console.log('Server started at http://localhost:' + PORT);
-});
+app.listen(PORT);
