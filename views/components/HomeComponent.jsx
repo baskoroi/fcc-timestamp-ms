@@ -11,10 +11,10 @@ module.exports = React.createClass({
                     <link rel="stylesheet" href="/css/bootstrap.min.css" />
                 </head>
                 <body>
-                    <div class="container-fluid">
-                        <h1>timestamp.me</h1>
+                    <div className="container-fluid">
+                        <h1 className="text-center">timestamp.me</h1>
 
-                        <div class="well">
+                        <div className="well">
                             <h2>User Stories</h2>
                             <ol>
                                 <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
@@ -23,13 +23,13 @@ module.exports = React.createClass({
                             </ol>
                         </div>
 
-                        <div class="example">
+                        <div className="example">
                             <h2>Example usage:</h2>
-                            <code>https://baskoroi-timestamp.herokuapp.com/May%2017%2016</code>
+                            <code>https://baskoroi-timestamp.herokuapp.com/May%2017%2016</code><br />
                             <code>https://baskoroi-timestamp.herokuapp.com/1463443200</code>
                         </div>
 
-                        <div class="example">
+                        <div className="example">
                             <h2>Example output:</h2>
                             <code>{'{'} &quot;unix&quot;: 1463443200, &quot;natural&quot;: &quot;May 17, 2016&quot; {'}'}</code>
                         </div>
